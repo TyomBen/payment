@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="styles.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              src="https://via.placeholder.com/300"
+              class="card-img-top"
+              alt="Product Image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Название товара</h5>
+              <p class="card-text">Описание товара</p>
+              <p class="price">$19.99</p>
+              <a href="#" class="btn">Купить</a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://via.placeholder.com/300"
+              class="card-img-top"
+              alt="Product Image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Название товара</h5>
+              <p class="card-text">Описание товара</p>
+              <p class="price">$19.99</p>
+              <a href="#" class="btn">Купить</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+          <h2 class="pt-5">Оплата</h2>
+          <div class="border box-shadow mt-5 card-styles">
+            <div class="d-flex pl-5 pt-5">
+              <label for="cardNumber">
+                <h6 class="text-white custom-h6">Номер карты</h6></label
+              >
+              <div class="cardName" id="cardName"></div>
+            </div>
+            <input
+              type="text"
+              class="bg-transparent cardNumberInp custom-input mr-5 numeric-input"
+              id="cardNumber"
+            />
+            <div class="d-flex pt-5 justify-content-around">
+              <label for="card-CVV-CVC">
+                <h6 class="text-white custom-h6">Срок Годности</h6></label
+              >
+              <label for="card-expiration-date">
+                <h6 class="text-white custom-h6 mr-5">CVV/CVC</h6></label
+              >
+            </div>
+            <div class="d-flex justify-content-around">
+              <input
+                type="text"
+                class="bg-transparent card-CVV-CVCInp custom-input numeric-input ml-5"
+                id="card-CVV-CVC"
+              />
+              <input
+                type="password"
+                class="bg-transparent card-CVV-CVCInp custom-input numeric-input"
+                id="card-expiration-date"
+              />
+            </div>
+            <input
+              type="text"
+              class="form-control mt-5"
+              placeholder="Введите email"
+            />
+            <input
+              type="text"
+              class="form-control mt-4"
+              placeholder="Введите имя"
+            />
+            <input
+              type="text"
+              class="form-control mt-4"
+              placeholder="Введите фамилия"
+            />
+            <br /><br />
+            <button class="btn btnStyle">Отправить</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="sripit.js" type="module"></script>
+  </body>
+</html>

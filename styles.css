@@ -1,0 +1,96 @@
+.card-styles {
+  width: 450px;
+  height: 250px;
+  border-radius: 15px;
+  margin: 0 auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(45deg, #ffa07a, #ffd700, #ff69b4, #00bfff);
+  transition: 0.4s;
+}
+
+.card-styles:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  transition: 0.7s;
+}
+
+.cardNumberInp {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 300px;
+  outline: none;
+}
+
+.card-CVV-CVCInp {
+  width: 150px;
+}
+
+.custom-input {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+.custom-h6 {
+  cursor: pointer;
+  font-weight: 100;
+}
+
+.cardName {
+  padding-left: 200px;
+}
+
+.custom-form {
+  width: 800px;
+  margin-top: 10px;
+  float: right;
+}
+
+.card {
+  transition: all 0.3s ease;
+}
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.card-title {
+  font-weight: bold;
+}
+.card-text {
+  color: #555;
+}
+.price {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: linear-gradient(45deg, #ffa07a, #ffd700, #ff69b4, #00bfff);
+}
+.btn {
+  background: #d6d6d6;
+  color: black;
+  transition: all 0.3s ease;
+  border: none;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.15);
+}
+
+.btn:hover {
+  color: white;
+}
+
+.btnStyle {
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(45deg, #ffa07a, #ffd700, #ff69b4, #00bfff);
+}
+
+.card {
+  width: 300px;
+  margin-top: 150px;
+}
+
+input[type="text"]::placeholder {
+  color: #999;
+  font-style: italic;
+}
